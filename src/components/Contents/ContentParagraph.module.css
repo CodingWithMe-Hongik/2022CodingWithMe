@@ -1,0 +1,31 @@
+.Paragraph {
+  margin: 50px auto 0px auto;
+
+  padding: 50px 50px;
+  width: 1100px;
+  background: #e8e8e8;
+  box-sizing: border-box;
+  border-radius: 30px;
+
+  display: flex;
+  flex-direction: column;
+  flex-basis: auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Paragraph img {
+  width: 500px;
+  height: 300px;
+  object-fit: contain;
+}
+
+.Paragraph p:first-child {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.Paragraph p {
+  margin: 10px;
+  font-size: 25px;
+}

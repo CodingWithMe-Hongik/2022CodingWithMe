@@ -1,0 +1,92 @@
+.MainHeader {
+  background-color: #371b58;
+  height: 120px;
+  padding: 30px 100px 30px 100px;
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: row;
+  flex-basis: auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.MainHeader p {
+  margin: 0px;
+
+  font-family: "Gochi Hand";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 47px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.MainHeader img {
+  height: 60px;
+  width: 60px;
+  object-fit: contain;
+}
+
+.Navbar {
+  background-color: #e8e8e8;
+  height: 60px;
+}
+
+.Navbar nav {
+  width: 1000px;
+  margin: 0 auto;
+  height: 60px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.Navbar ul {
+  display: flex;
+  flex-direction: row;
+  flex-basis: auto;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 0;
+
+  list-style-type: none;
+  font-size: 25px;
+  text-align: center;
+
+  color: rgb(61, 61, 61);
+}
+
+.Navbar li {
+  font-family: "Jua";
+  margin-left: 40px;
+  position: relative;
+}
+
+.Navbar ul li:first-child {
+  margin-left: 0;
+}
+
+.Navbar li:before {
+  content: "";
+  position: absolute;
+  background-color: #371b58;
+  height: 2px;
+
+  width: 0;
+  bottom: 0;
+  transition: 0.5s;
+
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.Navbar li:hover:before {
+  width: 100%;
+}
