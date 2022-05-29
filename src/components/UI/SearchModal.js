@@ -1,15 +1,31 @@
-import React from "react";
+import { Fragment } from "react";
 import ReactDOM from "react-dom";
 
-const ErrorModal = () => {
+import styles from "./SearchModal.module.css";
+
+const Backdrop = (props) => {
+  return <div className={styles.backdrop} onClick={props.onClose} />;
+};
+
+const ModalOverlay = (props) => {
+  return <div className={styles.modal}>{props.children}</div>;
+};
+
+const portalElement = document.getElementById("backdrop-root");
+
+const SearchModal = (props) => {
   return (
-    <React.Fragment>
+    <Fragment>
       {ReactDOM.createPortal(
-        <div>1</div>,
-        document.getElementById("backdrop-root")
+        <Backdrop onClose={props.onClose} />,
+        portalElement
       )}
-    </React.Fragment>
+      {ReactDOM.createPortal(
+        <ModalOverlay>{props.children}</ModalOverlay>,
+        portalElement
+      )}
+    </Fragment>
   );
 };
 
-export default ErrorModal;
+export default SearchModal;

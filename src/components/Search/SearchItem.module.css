@@ -1,0 +1,24 @@
+.listContent {
+  width: 500px;
+  height: 50px;
+
+  box-sizing: border-box;
+
+  display: flex;
+  align-items: center;
+
+  border-bottom: 3px #371b58;
+  padding: 5px 0px;
+  margin-bottom: 5px;
+  border-bottom: 1px solid #371b58;
+  border-style: hidden hidden dashed hidden;
+}
+
+.listContent:last-child {
+  border-style: hidden;
+  margin-bottom: 0px;
+}
+
+.listContent p {
+  font-size: 30px;
+}

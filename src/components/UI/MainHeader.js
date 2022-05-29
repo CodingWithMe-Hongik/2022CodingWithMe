@@ -1,21 +1,26 @@
-import React from "react";
+import React, { useState } from "react";
 import SearchIcon from "../../img/SearchIcon.png";
 
 import styles from "./MainHeader.module.css";
-import ErrorModal from "./SearchModal";
+import Search from "../Search/Search";
 
 const MainHeader = () => {
+  const [searchModalIsShown, setSearchModalIsShown] = useState(false);
+
+  const viewSearchModal = () => {
+    setSearchModalIsShown(true);
+  };
+
+  const closeSearchModal = () => {
+    setSearchModalIsShown(false);
+  };
+
   return (
     <React.Fragment>
       <div className={styles.MainHeader}>
         <p>Coding With Me</p>
-        <img
-          src={SearchIcon}
-          alt="Search"
-          onClick={() => {
-            return <ErrorModal />;
-          }}
-        />
+        <img src={SearchIcon} alt="Search" onClick={viewSearchModal} />
+        {searchModalIsShown && <Search onClose={closeSearchModal} />}
       </div>
       <div className={styles.Navbar}>
         <nav>
