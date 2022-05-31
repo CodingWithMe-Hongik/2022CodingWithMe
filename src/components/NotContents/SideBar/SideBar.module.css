@@ -1,0 +1,48 @@
+.SideBar {
+  width: 250px;
+
+  background: #e8e8e8;
+  border-radius: 20px;
+
+  display: flex;
+  flex-direction: column;
+  flex-basis: auto;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: auto;
+}
+
+.Title {
+  width: 200px;
+  height: 100px;
+
+  margin: 25px 25px 25px 25px;
+  background: #bfbfbf;
+  border-radius: 20px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Title p {
+  font-size: 30px;
+}
+
+.List {
+  width: 200px;
+
+  padding: 0px;
+  margin: 0px 0px 25px 0px;
+  background: #bfbfbf;
+  border-radius: 20px;
+  list-style-type: none;
+}
+
+.List li {
+  margin: 0px 20px;
+}
+
+.List p {
+  font-size: 20px;
+}

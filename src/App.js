@@ -3,6 +3,7 @@ import { Route, Routes, Navigate } from "react-router-dom";
 import "./App.css";
 import ContentPage from "./pages/contentpage";
 import MainPage from "./pages/mainpage";
+import NotContentPage from "./pages/notcontentpage";
 
 function App() {
   return (
@@ -10,7 +11,11 @@ function App() {
       <Routes>
         <Route path="/" element={<Navigate to="/mainpage" />} />
         <Route path="/mainpage" element={<MainPage />} />
-        <Route path="/mainpage/:contentId" element={<ContentPage />} />
+        <Route path="/mainpage/:sortId" element={<ContentPage />} />
+        <Route
+          path="/mainpage/:sortId/:contentId"
+          element={<NotContentPage />}
+        />
       </Routes>
     </React.Fragment>
   );

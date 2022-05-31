@@ -1,0 +1,52 @@
+.ContainerBox {
+  width: 850px;
+  padding-left: 50px;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* align-content: space-around; */
+}
+
+.LinkContainer {
+  width: 375px;
+  height: 250px;
+  background: #807d7d;
+  border-radius: 20px;
+
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 50px;
+
+  padding: 0;
+  border: none;
+  transition: transform 0.5s;
+}
+
+.LinkContainer div {
+  position: relative;
+  top: 210px;
+  left: 42.5px;
+
+  width: 290px;
+  height: 60px;
+  background: #e8e8e8;
+  border-radius: 20px;
+
+  text-align: center;
+  font-size: 50px;
+
+  padding: 0;
+  border: none;
+  transition: transform 0.5s;
+}
+
+.LinkContainer:hover,
+.LinkContainer:focus {
+  transform: scale3d(1.1, 1.1, 1);
+}
+
+.LinkContainer:hover::after,
+.LinkContainer:focus::after {
+  opacity: 1;
+}
