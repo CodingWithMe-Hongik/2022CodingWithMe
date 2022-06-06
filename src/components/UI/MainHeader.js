@@ -3,6 +3,7 @@ import SearchIcon from "../../img/SearchIcon.png";
 
 import styles from "./MainHeader.module.css";
 import Search from "../Search/Search";
+import { NavLink } from "react-router-dom";
 
 const MainHeader = () => {
   const [searchModalIsShown, setSearchModalIsShown] = useState(false);
@@ -25,13 +26,41 @@ const MainHeader = () => {
       <div className={styles.Navbar}>
         <nav>
           <ul>
-            <li>프로그래밍 언어</li>
-            <li>개발</li>
-            <li>보안</li>
-            <li>DB</li>
-            <li>인공지능/딥러닝</li>
-            <li>수학</li>
-            <li>기타</li>
+            <li>
+              <NavLink className={styles.NavLink} to="/programmingLan">
+                프로그래밍 언어
+              </NavLink>
+            </li>
+            <li>
+              <NavLink className={styles.NavLink} to="/development">
+                개발
+              </NavLink>
+            </li>
+            <li>
+              <NavLink className={styles.NavLink} to="/security">
+                보안
+              </NavLink>
+            </li>
+            <li>
+              <NavLink className={styles.NavLink} to="/db">
+                DB
+              </NavLink>
+            </li>
+            <li>
+              <NavLink className={styles.NavLink} to="/AI">
+                인공지능/딥러닝
+              </NavLink>
+            </li>
+            <li>
+              <NavLink className={styles.NavLink} to="/math">
+                수학
+              </NavLink>
+            </li>
+            <li>
+              <NavLink className={styles.NavLink} to="/etc">
+                기타
+              </NavLink>
+            </li>
           </ul>
         </nav>
       </div>

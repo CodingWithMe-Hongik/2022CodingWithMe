@@ -11,7 +11,7 @@
 .PageLink {
   width: 290px;
   height: 293px;
-  background: #807d7d;
+  background: black;
   border-radius: 20px;
 
   text-align: center;
@@ -21,6 +21,24 @@
   padding: 0;
   border: none;
   transition: transform 0.5s;
+  text-decoration: none;
+}
+
+.PageLink img {
+  width: 290px;
+  height: 293px;
+  border-radius: 20px;
+  object-fit: cover;
+  opacity: 50%;
+}
+
+.PageLink div p {
+  font-size: 30px;
+
+  margin: 0px;
+  position: relative;
+  bottom: 70px;
+  color: #fff;
 }
 
 .PageLink:hover,

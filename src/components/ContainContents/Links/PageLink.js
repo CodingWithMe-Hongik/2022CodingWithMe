@@ -1,16 +1,21 @@
-import React from "react";
+import React, { Fragment } from "react";
 import styles from "./PageLink.module.css";
+import { NavLink } from "react-router-dom";
 
-const PageLink = () => {
+const PageLink = (props) => {
   return (
     <React.Fragment>
       <div className={styles.Package}>
-        <div className={styles.PageLink}>1</div>
-        <div className={styles.PageLink}>2</div>
-        <div className={styles.PageLink}>3</div>
-        <div className={styles.PageLink}>4</div>
-        <div className={styles.PageLink}>5</div>
-        <div className={styles.PageLink}>6</div>
+        {props.data.map((link) => (
+          <Fragment>
+            <NavLink to={link.url} className={styles.PageLink}>
+              <img src={link.img} alt="img" />
+              <div>
+                <p>{link.title}</p>
+              </div>
+            </NavLink>
+          </Fragment>
+        ))}
       </div>
     </React.Fragment>
   );

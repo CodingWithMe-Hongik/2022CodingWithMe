@@ -15,9 +15,10 @@
 }
 
 .Paragraph img {
-  width: 500px;
-  height: 300px;
+  max-width: 500px;
+  max-height: 300px;
   object-fit: contain;
+  margin-bottom: 10px;
 }
 
 .Paragraph p:first-child {
@@ -26,6 +27,7 @@
 }
 
 .Paragraph p {
-  margin: 10px;
+  margin: 5px 0px 0px 0px;
   font-size: 25px;
+  text-align: center;
 }
