@@ -17,14 +17,11 @@ const useGetItems = (url) => {
     }
   };
 
-  useEffect(() => {
-    fetchData(url);
-  }, []);
-
   return {
     loading,
     error,
     data,
+    fetchData,
   };
 };
 

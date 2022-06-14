@@ -2,14 +2,18 @@ import Layout from "../components/UI/Layout";
 import ContentParagraph from "../components/ContainContents/Contents/ContentParagraph";
 import PageLink from "../components/ContainContents/Links/PageLink";
 import useGetItems from "../hooks/useGetItems";
-import { Fragment } from "react";
+import { Fragment, useEffect } from "react";
 
 const MainPage = () => {
-  const { loading, error, data } = useGetItems(
-    "https://codingwith-3cbaf-default-rtdb.firebaseio.com/main/main.json"
-  );
+  const { loading, error, data, fetchData } = useGetItems();
 
   let content;
+
+  useEffect(() => {
+    fetchData(
+      "https://codingwith-3cbaf-default-rtdb.firebaseio.com/main/main.json"
+    );
+  }, []);
 
   if (loading) {
     content = (
@@ -27,6 +31,7 @@ const MainPage = () => {
       </Fragment>
     );
   }
+
   return <Layout>{content}</Layout>;
 };
 export default MainPage;

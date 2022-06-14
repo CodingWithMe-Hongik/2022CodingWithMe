@@ -78,62 +78,62 @@
         {
           "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhPh_XTNYO-yUsME4SVgg4yGT8KchNjBct-hxY1HBYtej5Dnx-XoEju9EZJIXm_JBGR5w&usqp=CAU",
           "title": "C",
-          "url": "/c"
+          "url": "c"
         },
         {
           "img": "https://images.velog.io/images/hustle-dev/post/f702168d-b741-4d25-94bf-b45540d8aa5f/img.jpg",
           "title": "C++",
-          "url": "/cpp"
+          "url": "cpp"
         },
         {
           "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxe8Coc-_01WO-Phk4VXNFjlhOAEr_SsTo71pYgUxP_osCY1_IWwe1powTjgqs3LYg46k&usqp=CAU",
           "title": "C#",
-          "url": "/cs"
+          "url": "cs"
         },
         {
           "img": "https://images.velog.io/images/suzieep/post/a137794d-1f46-4af8-ac58-954d4dc0696f/logo-python.png",
           "title": "Python",
-          "url": "/python"
+          "url": "python"
         },
         {
           "img": "https://miro.medium.com/max/1400/1*J76LX5mvMD-bP1qCj8PQpA.png",
           "title": "Java",
-          "url": "/java"
+          "url": "java"
         },
         {
           "img": "https://images.velog.io/images/jacoblee19/post/37558a06-0678-4657-adb2-e1e957e6d8f0/html.webp",
           "title": "HTML",
-          "url": "/html"
+          "url": "html"
         },
         {
           "img": "https://images.velog.io/images/jakeseo_me/post/7492518b-f81c-4ebe-be44-a40f2af5064c/css%20shield.png",
           "title": "CSS",
-          "url": "/css"
+          "url": "css"
         },
         {
           "img": "https://s3-ap-northeast-2.amazonaws.com/opentutorials-user-file/course/3700/11366.png",
           "title": "JavaScript",
-          "url": "/js"
+          "url": "js"
         },
         {
           "img": "https://images.velog.io/images/mokyoungg/post/6659a8e8-5234-49e5-b3da-a3816c08bfdc/%ED%83%80%EC%9E%85%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%20%EB%A1%9C%EA%B3%A0.svg",
           "title": "TypeScript",
-          "url": "/ts"
+          "url": "ts"
         },
         {
           "img": "https://images.velog.io/images/gleam0807/post/cf1b8098-fa7e-4a9e-a649-e98d261e9d4b/node.jpg",
           "title": "Nodejs",
-          "url": "/nodejs"
+          "url": "nodejs"
         },
         {
           "img": "https://images.velog.io/images/betterfuture4/post/2c50784e-9374-489c-b487-2d945626b4f3/express-facebook-share.png",
           "title": "Express",
-          "url": "/express"
+          "url": "express"
         },
         {
           "img": "https://www.ictdemy.com/images/5728/mdb.png",
           "title": "MongoDB",
-          "url": "/mongodb"
+          "url": "mongodb"
         }
       ],
       "paragraph": [

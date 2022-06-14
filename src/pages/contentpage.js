@@ -2,15 +2,19 @@ import Layout from "../components/UI/Layout";
 import ContentParagraph from "../components/ContainContents/Contents/ContentParagraph";
 import PageLink from "../components/ContainContents/Links/PageLink";
 import useGetItems from "../hooks/useGetItems";
-import { Fragment } from "react";
+import { Fragment, useEffect } from "react";
 import { useParams } from "react-router-dom";
 
 const ContentPage = () => {
   const params = useParams();
 
-  const { loading, error, data } = useGetItems(
-    `https://codingwith-3cbaf-default-rtdb.firebaseio.com/main/${params.sortId}.json`
-  );
+  const { loading, error, data, fetchData } = useGetItems();
+
+  useEffect(() => {
+    fetchData(
+      `https://codingwith-3cbaf-default-rtdb.firebaseio.com/main/${params.sortId}.json`
+    );
+  }, [params]);
 
   let content;
   if (loading) {
@@ -21,7 +25,6 @@ const ContentPage = () => {
   if (error) {
     content = <p style={{ fontSize: "40px", textAlign: "center" }}>Error</p>;
   }
-  console.log(data);
   if (data) {
     content = (
       <Fragment>
@@ -30,6 +33,7 @@ const ContentPage = () => {
       </Fragment>
     );
   }
+
   return <Layout>{content}</Layout>;
 };
 export default ContentPage;
