@@ -1,24 +1,31 @@
 import axios from "axios";
+import { useState, useEffect } from "react";
 
-const useGetItems = async (props) => {
-  const fetching = async (props) => {
-    const response = await axios.get(props.url);
+const useGetItems = (url) => {
+  const [data, setData] = useState(null);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
 
-    if (!response.ok) {
-      throw new Error("Can't fetch contents");
+  const fetchData = async (url) => {
+    try {
+      const temp = await axios.get(url);
+      setData(temp.data);
+      setLoading(false);
+    } catch (err) {
+      setError(err);
+      setLoading(false);
     }
-
-    const data = await response.json();
-
-    return data;
   };
-  try {
-    const data = await fetching({ url: props.url });
-    return data;
-  } catch (err) {
-    alert(err.message);
-    return null;
-  }
+
+  useEffect(() => {
+    fetchData(url);
+  }, []);
+
+  return {
+    loading,
+    error,
+    data,
+  };
 };
 
 export default useGetItems;

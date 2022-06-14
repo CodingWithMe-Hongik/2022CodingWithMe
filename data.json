@@ -1,0 +1,257 @@
+{
+  "main": {
+    "main": {
+      "links": [
+        {
+          "img": "https://cdn.pixabay.com/photo/2015/12/04/14/05/code-1076536__340.jpg",
+          "title": "프로그래밍 언어",
+          "url": "/programmingLan"
+        },
+        {
+          "img": "https://cdn.pixabay.com/photo/2015/12/11/09/30/mobile-phone-1087845_1280.jpg",
+          "title": "개발",
+          "url": "/development"
+        },
+        {
+          "img": "https://cdn.pixabay.com/photo/2018/05/04/15/49/cyber-security-3374252_1280.jpg",
+          "title": "보안",
+          "url": "/security"
+        },
+        {
+          "img": "https://cdn.pixabay.com/photo/2017/02/27/12/17/big-data-2103091__340.png",
+          "title": "DB",
+          "url": "/db"
+        },
+        {
+          "img": "https://w.namu.la/s/c9b951140de72f66425f2f5523cd2a4aa0a796a5c67e4c8363782e249d58f9d4fbbd977b1c6fd8d0fcecf5ee70a146619ee15c502a074c547f931384a97d69e5fd93b443273cdbcb802a086458dced86cb9703e93502633e99f477094bc57aa8",
+          "title": "인공지능/딥러닝",
+          "url": "/AI"
+        },
+        {
+          "img": "https://cdn.pixabay.com/photo/2016/06/13/07/59/pi-1453836__480.jpg",
+          "title": "수학",
+          "url": "/math"
+        },
+        {
+          "img": "https://cdn.pixabay.com/photo/2016/11/18/15/44/audience-1835431__340.jpg",
+          "title": "기타",
+          "url": "/etc"
+        }
+      ],
+      "paragraph": [
+        {
+          "contents": [
+            "코딩윗미에 방문해주셔서 감사합니다.",
+            "코딩윗미는 \"전공자, 비전공자에 관계없이\" 코딩에 관심이 있는 모두를 위해",
+            "코딩과 관련된 사이트들을 모아 소개, 추천해드리는 사이트입니다."
+          ],
+          "title": "blank",
+          "url": "/img/HelloWorld.png"
+        },
+        {
+          "contents": [
+            "우리는 정보화 시대에 걸맞게 수많은 코딩 강의들과 사이트들에 노출되어있습니다.",
+            "이러한 사이트들이 분야에 따라 나눠져 제공된다면",
+            "코딩에 관심있는 사람들이 강의를 선택하고 수강하기에 더 편리한 환경이 되지않을까?",
+            "좋은 사이트들을 공유하면 더 많은 사람들이 혜택을 볼 수 있지않을까? 라는 의문에서",
+            "이 사이트가 나오게됐습니다."
+          ],
+          "title": "코딩공부 더 간편해질 수 없을까?",
+          "url": "blank"
+        },
+        {
+          "contents": [
+            "코딩윗미는 분야에 따라 코딩사이트들을 안내합니다.",
+            "분야들로는 \"프로그래밍 언어, 개발, 보안/네트워크, db, 인공지능/머신러닝/딥러닝,",
+            "수학(코딩에 필요한), 기타(커뮤니티 등)\"를 제공하고 있으며,",
+            "각 분야별로 사이트들이 소개되어있고",
+            "그 중 본인에게 맞는 사이트를 선택, 수강하시면 됩니다.",
+            "표기된 사이트들에 대해 일절 광고나 협찬을 받지 않았습니다."
+          ],
+          "title": "사이트 가이드",
+          "url": "blank"
+        }
+      ]
+    },
+    "programmingLan": {
+      "links": [
+        {
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhPh_XTNYO-yUsME4SVgg4yGT8KchNjBct-hxY1HBYtej5Dnx-XoEju9EZJIXm_JBGR5w&usqp=CAU",
+          "title": "C",
+          "url": "/c"
+        },
+        {
+          "img": "https://images.velog.io/images/hustle-dev/post/f702168d-b741-4d25-94bf-b45540d8aa5f/img.jpg",
+          "title": "C++",
+          "url": "/cpp"
+        },
+        {
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxe8Coc-_01WO-Phk4VXNFjlhOAEr_SsTo71pYgUxP_osCY1_IWwe1powTjgqs3LYg46k&usqp=CAU",
+          "title": "C#",
+          "url": "/cs"
+        },
+        {
+          "img": "https://images.velog.io/images/suzieep/post/a137794d-1f46-4af8-ac58-954d4dc0696f/logo-python.png",
+          "title": "Python",
+          "url": "/python"
+        },
+        {
+          "img": "https://miro.medium.com/max/1400/1*J76LX5mvMD-bP1qCj8PQpA.png",
+          "title": "Java",
+          "url": "/java"
+        },
+        {
+          "img": "https://images.velog.io/images/jacoblee19/post/37558a06-0678-4657-adb2-e1e957e6d8f0/html.webp",
+          "title": "HTML",
+          "url": "/html"
+        },
+        {
+          "img": "https://images.velog.io/images/jakeseo_me/post/7492518b-f81c-4ebe-be44-a40f2af5064c/css%20shield.png",
+          "title": "CSS",
+          "url": "/css"
+        },
+        {
+          "img": "https://s3-ap-northeast-2.amazonaws.com/opentutorials-user-file/course/3700/11366.png",
+          "title": "JavaScript",
+          "url": "/js"
+        },
+        {
+          "img": "https://images.velog.io/images/mokyoungg/post/6659a8e8-5234-49e5-b3da-a3816c08bfdc/%ED%83%80%EC%9E%85%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%20%EB%A1%9C%EA%B3%A0.svg",
+          "title": "TypeScript",
+          "url": "/ts"
+        },
+        {
+          "img": "https://images.velog.io/images/gleam0807/post/cf1b8098-fa7e-4a9e-a649-e98d261e9d4b/node.jpg",
+          "title": "Nodejs",
+          "url": "/nodejs"
+        },
+        {
+          "img": "https://images.velog.io/images/betterfuture4/post/2c50784e-9374-489c-b487-2d945626b4f3/express-facebook-share.png",
+          "title": "Express",
+          "url": "/express"
+        },
+        {
+          "img": "https://www.ictdemy.com/images/5728/mdb.png",
+          "title": "MongoDB",
+          "url": "/mongodb"
+        }
+      ],
+      "paragraph": [
+        {
+          "contents": [
+            "프로그래밍 언어는 소프트웨어를 작성하기 위한 언어로",
+            "프로그래밍을 하기 위해선 필수적으로 공부해야 되는 영역입니다.",
+            "추가로 프레임워크나 라이브러리 등도 이 배너에 같이 소개돼있으니 참고 바랍니다."
+          ],
+          "title": "프로그래밍 언어",
+          "url": "https://cdn.pixabay.com/photo/2013/03/30/00/10/alphabet-97873_1280.png"
+        },
+        {
+          "contents": [
+            "영어를 배우기 위해서 알파벳을 배우고 중국어를 배우기 위해서 간체자를 배우듯",
+            "개발을 하기 위해선 그 분야에서 쓰이는 프로그래밍 언어를 배워야 합니다.",
+            "간단하게 분야별 언어들 중 일부를 분류해보면 아래와 같습니다.",
+            "개인마다 선호하는 언어가 다르므로 참고만 하시길 바랍니다."
+          ],
+          "title": "어떤 언어를 배워야하지?",
+          "url": "https://cdn.pixabay.com/photo/2015/11/03/08/56/question-mark-1019820_960_720.jpg"
+        }
+      ]
+    },
+    "development": {
+      "links": [
+        {
+          "img": "https://cdn.pixabay.com/photo/2015/05/19/07/44/browser-773215_1280.png",
+          "title": "WEB",
+          "url": "web"
+        },
+        {
+          "img": "https://cdn.pixabay.com/photo/2016/11/29/05/08/apple-1867461_1280.jpg",
+          "title": "모바일",
+          "url": "mobile"
+        },
+        {
+          "img": "https://cdn.pixabay.com/photo/2016/07/12/11/39/checkmate-1511866__340.jpg",
+          "title": "게임",
+          "url": "game"
+        }
+      ],
+      "paragraph": [
+        {
+          "contents": [
+            "개발은 프로그래밍 언어를 활용하여 직접 프로그램을 설계/만드는 과정입니다.",
+            "분야가 매우 다양한 편인데 웹 프론트엔드/백엔드,모바일,게임,임베디드 등이 있습니다.",
+            "보안, DB ,인공지능 분야는 다른 배너에 따로 표시되어있으니 참고바랍니다."
+          ],
+          "title": "blank",
+          "url": "https://cdn.pixabay.com/photo/2018/03/13/22/53/puzzle-3223941__340.jpg"
+        }
+      ]
+    },
+    "db": {
+      "links": [
+        {
+          "img": "https://blog.kakaocdn.net/dn/bWNJqA/btqOvfhEEq2/DGy8Wy4yyQRHs2cF0YlxsK/img.png",
+          "title": "자료구조",
+          "url": "datastructure"
+        },
+        {
+          "img": "https://images.velog.io/images/0_cyberlover_0/post/71604e8a-9bc2-4052-ac3f-12ce02b48861/database2.jpeg",
+          "title": "DB",
+          "url": "db"
+        }
+      ],
+      "paragraph": [
+        {
+          "contents": [
+            "즉 database는 데이터의 집합체를 말합니다.",
+            "효율성을 위해 중복되는 데이터를 제거하고 구조화 등을 진행하며",
+            "데이터베이스 관리 시스템(미들웨어)을 통해 db를 관리합니다."
+          ],
+          "title": "DB",
+          "url": "https://cdn.pixabay.com/photo/2013/07/12/17/22/database-152091__340.png"
+        }
+      ]
+    }
+  },
+  "detail": {
+    "development": {
+      "game": [
+        {
+          "img": "null",
+          "title": "edwith",
+          "url": "https://www.edwith.org/search/index?categoryId=69"
+        },
+        {
+          "img": "\"\"",
+          "title": "udemy",
+          "url": "https://www.udemy.com/ko/courses/development/game-development/"
+        }
+      ],
+      "mobile": [
+        {
+          "img": "\"\"",
+          "title": "edwith",
+          "url": "https://www.edwith.org/search/index?categoryId=70"
+        },
+        {
+          "img": "\"\"",
+          "title": "inflearn",
+          "url": "https://www.inflearn.com/roadmaps?terms=5"
+        }
+      ],
+      "web": [
+        {
+          "img": "\"\"",
+          "title": "edwith",
+          "url": "https://www.edwith.org/search/index?categoryId=69"
+        },
+        {
+          "img": "\"\"",
+          "title": "Udemy",
+          "url": "https://www.udemy.com/ko/courses/development/web-development/"
+        }
+      ]
+    }
+  }
+}

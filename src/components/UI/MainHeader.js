@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import SearchIcon from "../../img/SearchIcon.png";
 
 import styles from "./MainHeader.module.css";
 import Search from "../Search/Search";
@@ -19,8 +18,10 @@ const MainHeader = () => {
   return (
     <React.Fragment>
       <div className={styles.MainHeader}>
-        <p>Coding With Me</p>
-        <img src={SearchIcon} alt="Search" onClick={viewSearchModal} />
+        <NavLink style={{ textDecoration: "none" }} to="/">
+          <p>Coding With Me</p>
+        </NavLink>
+        <img src="/img/SearchIcon.png" alt="Search" onClick={viewSearchModal} />
         {searchModalIsShown && <Search onClose={closeSearchModal} />}
       </div>
       <div className={styles.Navbar}>
@@ -34,11 +35,6 @@ const MainHeader = () => {
             <li>
               <NavLink className={styles.NavLink} to="/development">
                 개발
-              </NavLink>
-            </li>
-            <li>
-              <NavLink className={styles.NavLink} to="/security">
-                보안
               </NavLink>
             </li>
             <li>

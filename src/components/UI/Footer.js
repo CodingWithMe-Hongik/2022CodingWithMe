@@ -1,5 +1,4 @@
 import styles from "./Footer.module.css";
-import GitHubLogo from "../../img/GitHubLogo.png";
 
 const Footer = () => {
   return (
@@ -11,7 +10,7 @@ const Footer = () => {
           target="_blank"
           rel="noreferrer"
         >
-          <img src={GitHubLogo} alt="Github" />
+          <img src="/img/GitHubLogo.png" alt="Github" />
         </a>
       </div>
     </footer>
