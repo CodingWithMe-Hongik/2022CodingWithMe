@@ -1,5 +1,5 @@
 .listContent {
-  width: 500px;
+  width: 100%px;
   height: 50px;
 
   box-sizing: border-box;
@@ -26,4 +26,5 @@
 
 .listContent p {
   font-size: 30px;
+  margin: 0;
 }
