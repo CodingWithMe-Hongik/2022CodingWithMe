@@ -43,7 +43,7 @@ const MainHeader = () => {
               </NavLink>
             </li>
             <li>
-              <NavLink className={styles.NavLink} to="/AI">
+              <NavLink className={styles.NavLink} to="/ai">
                 인공지능/딥러닝
               </NavLink>
             </li>

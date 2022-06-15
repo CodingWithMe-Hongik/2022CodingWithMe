@@ -1,33 +1,24 @@
 import React from "react";
 import styles from "./SearchItem.module.css";
+import { NavLink } from "react-router-dom";
 
-const SearchItem = () => {
+const SearchItem = (props) => {
+  console.log(props.data);
   return (
     <React.Fragment>
-      <li className={styles.listContent}>
-        <p>프로그래밍 언어 / C++</p>
-      </li>
-      <li className={styles.listContent}>
-        <p>인공지능/딥러닝 / 21312312312312</p>
-      </li>
-      <li className={styles.listContent}>
-        <p>프로그래밍 언어 / 1</p>
-      </li>
-      <li className={styles.listContent}>
-        <p>프로그래밍 언어 / 2</p>
-      </li>
-      <li className={styles.listContent}>
-        <p>프로그래밍 언어 / 3</p>
-      </li>
-      <li className={styles.listContent}>
-        <p>프로그래밍 언어 / 4</p>
-      </li>
-      <li className={styles.listContent}>
-        <p>프로그래밍 언어 / 5</p>
-      </li>
-      <li className={styles.listContent}>
-        <p>프로그래밍 언어 / 6</p>
-      </li>
+      {props.data.map((item, index) => {
+        return (
+          <li className={styles.listContent} key={index}>
+            <NavLink
+              className={styles.link}
+              to={item.url}
+              onClick={props.onClose}
+            >
+              <p>{item.title}</p>
+            </NavLink>
+          </li>
+        );
+      })}
     </React.Fragment>
   );
 };
