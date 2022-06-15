@@ -3,7 +3,6 @@ import styles from "./SearchItem.module.css";
 import { NavLink } from "react-router-dom";
 
 const SearchItem = (props) => {
-  console.log(props.data);
   return (
     <React.Fragment>
       {props.data.map((item, index) => {

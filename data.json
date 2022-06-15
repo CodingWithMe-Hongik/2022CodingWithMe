@@ -13,11 +13,6 @@
           "url": "/development"
         },
         {
-          "img": "https://cdn.pixabay.com/photo/2018/05/04/15/49/cyber-security-3374252_1280.jpg",
-          "title": "보안",
-          "url": "/security"
-        },
-        {
           "img": "https://cdn.pixabay.com/photo/2017/02/27/12/17/big-data-2103091__340.png",
           "title": "DB",
           "url": "/db"
@@ -113,12 +108,12 @@
         {
           "img": "https://s3-ap-northeast-2.amazonaws.com/opentutorials-user-file/course/3700/11366.png",
           "title": "JavaScript",
-          "url": "js"
+          "url": "javascript"
         },
         {
           "img": "https://images.velog.io/images/mokyoungg/post/6659a8e8-5234-49e5-b3da-a3816c08bfdc/%ED%83%80%EC%9E%85%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%20%EB%A1%9C%EA%B3%A0.svg",
           "title": "TypeScript",
-          "url": "ts"
+          "url": "typescript"
         },
         {
           "img": "https://images.velog.io/images/gleam0807/post/cf1b8098-fa7e-4a9e-a649-e98d261e9d4b/node.jpg",
@@ -154,7 +149,7 @@
             "개인마다 선호하는 언어가 다르므로 참고만 하시길 바랍니다."
           ],
           "title": "어떤 언어를 배워야하지?",
-          "url": "https://cdn.pixabay.com/photo/2015/11/03/08/56/question-mark-1019820_960_720.jpg"
+          "url": "blank"
         }
       ]
     },
@@ -184,7 +179,7 @@
             "보안, DB ,인공지능 분야는 다른 배너에 따로 표시되어있으니 참고바랍니다."
           ],
           "title": "개발",
-          "url": "https://cdn.pixabay.com/photo/2018/03/13/22/53/puzzle-3223941__340.jpg"
+          "url": "https://cdn.pixabay.com/photo/2018/02/15/16/22/puzzle-3155663_1280.png"
         }
       ]
     },
@@ -210,6 +205,99 @@
           ],
           "title": "DB",
           "url": "https://cdn.pixabay.com/photo/2013/07/12/17/22/database-152091__340.png"
+        }
+      ]
+    },
+    "ai": {
+      "links": [
+        {
+          "img": "https://cdn.pixabay.com/photo/2017/05/10/19/29/robot-2301646__340.jpg",
+          "title": "AI",
+          "url": "ai"
+        },
+        {
+          "img": "https://cdn.pixabay.com/photo/2017/03/23/09/34/artificial-intelligence-2167835__340.jpg",
+          "title": "딥러닝",
+          "url": "deepLearning"
+        }
+      ],
+      "paragraph": [
+        {
+          "contents": [
+            "인공지능은 기계를 활용하여 인간의 지능을 구현하는 것이고",
+            "딥 러닝은 완전한 머신러닝을 구현하는 기술입니다."
+          ],
+          "title": "인공지능 / 딥러닝",
+          "url": "https://cdn.pixabay.com/photo/2016/10/18/19/40/anatomy-1751201__340.png"
+        }
+      ]
+    },
+    "math": {
+      "links": [
+        {
+          "img": "https://cdn.pixabay.com/photo/2019/02/10/08/49/math-3986758__480.jpg",
+          "title": "미적분학",
+          "url": "calculus"
+        },
+        {
+          "img": "https://cdn.pixabay.com/photo/2015/11/15/07/47/geometry-1044090_1280.jpg",
+          "title": "선형대수학",
+          "url": "linearAlgebra"
+        },
+        {
+          "img": "https://cdn.pixabay.com/photo/2016/11/18/15/44/audience-1835431__480.jpg",
+          "title": "기타",
+          "url": "etc"
+        }
+      ],
+      "paragraph": [
+        {
+          "contents": [
+            "프로그래밍을 하다보면 분야에 따라 \"수학\" 개념들이 필요합니다.",
+            "프로그래밍을 할 때 많이 쓰이는 수학 분야인",
+            "미적분, 선형대수학등의 강의들을 정리했습니다."
+          ],
+          "title": "수학",
+          "url": "https://cdn.pixabay.com/photo/2016/04/13/16/09/pi-1327145_1280.png"
+        }
+      ]
+    },
+    "etc": {
+      "links": [
+        {
+          "img": "https://cdn.pixabay.com/photo/2017/07/20/03/53/homework-2521144__480.jpg",
+          "title": "문제 해결",
+          "url": "solving"
+        },
+        {
+          "img": "https://cdn.pixabay.com/photo/2017/10/03/20/30/awards-2814023_1280.jpg",
+          "title": "자격증 기출",
+          "url": "certification"
+        },
+        {
+          "img": "https://cdn.pixabay.com/photo/2016/11/19/14/16/man-1839500__340.jpg",
+          "title": "커뮤니티",
+          "url": "community"
+        },
+        {
+          "img": "https://cdn.pixabay.com/photo/2020/12/15/16/06/win-5834110__480.png",
+          "title": "대회",
+          "url": "contest"
+        },
+        {
+          "img": "https://cdn.pixabay.com/photo/2013/04/19/01/15/university-105709__340.jpg",
+          "title": "강의",
+          "url": "lecture"
+        }
+      ],
+      "paragraph": [
+        {
+          "contents": [
+            "개발자 커뮤니티, 자료구조 시각화 사이트 등 공부하면서",
+            "참고하면 좋을만한 사이트들을 모아두었습니다."
+          ],
+          "title": "blank",
+          "url": "https://cdn.pixabay.com/photo/2017/01/31/13/46/guitar-2024189_1280.png"
         }
       ]
     }

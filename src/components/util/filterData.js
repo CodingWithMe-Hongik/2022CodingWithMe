@@ -1,6 +1,5 @@
 export const filterData = (data, input) => {
-  const types = ["programmingLan", "development", "db"];
-  //   , "ai", "math", "etc"
+  const types = ["programmingLan", "development", "db", "ai", "math", "etc"];
   const filteredData = [];
   for (const type of types) {
     data[type].links.map((data) => {
@@ -8,7 +7,7 @@ export const filterData = (data, input) => {
         filteredData.push({
           type,
           title: data.title,
-          url: `/${type}/${data.title}`,
+          url: `/${type}/${data.url}`,
         });
       }
     });
