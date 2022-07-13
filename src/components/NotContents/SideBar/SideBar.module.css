@@ -13,27 +13,11 @@
   margin-bottom: auto;
 }
 
-.Title {
-  width: 200px;
-  height: 100px;
-
-  margin: 25px 25px 25px 25px;
-  background: #bfbfbf;
-  border-radius: 20px;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.Title p {
-  font-size: 30px;
-}
-
 .List {
   width: 200px;
 
   padding: 0px;
-  margin: 0px 0px 25px 0px;
+  margin: 25px 0px 25px 0px;
   background: #bfbfbf;
   border-radius: 20px;
   list-style-type: none;
@@ -45,4 +29,5 @@
 
 .List p {
   font-size: 20px;
+  text-decoration: none;
 }

@@ -12,7 +12,7 @@ function App() {
         <Route path="/" element={<Navigate to="/mainpage" />} />
         <Route path="/mainpage" element={<MainPage />} />
         <Route path="/:sortId" element={<ContentPage />} />
-        <Route path="/:sortId/:contentId" element={<NotContentPage />} />
+        <Route path="/:sortId/:detailId" element={<NotContentPage />} />
       </Routes>
     </React.Fragment>
   );

@@ -18,21 +18,35 @@ const Search = (props) => {
 
   if (loading) {
     content = (
-      <p style={{ fontSize: "40px", textAlign: "center" }}>Loading...</p>
+      <div className={styles.searchList}>
+        <p style={{ fontSize: "40px", textAlign: "center" }}>Loading...</p>
+      </div>
     );
   }
   if (error) {
-    content = <p style={{ fontSize: "40px", textAlign: "center" }}>Error</p>;
+    content = (
+      <div className={styles.searchList}>
+        <p style={{ fontSize: "40px", textAlign: "center" }}>Error</p>
+      </div>
+    );
   }
   if (data) {
     const filteredData = filterData(data, input);
-    content = (
-      <div className={styles.searchList}>
-        <ul>
-          <SearchItem data={filteredData} onClose={props.onClose} />
-        </ul>
-      </div>
-    );
+    filteredData.length === 0
+      ? (content = (
+          <div className={styles.searchList}>
+            <p style={{ fontSize: "30px", textAlign: "center" }}>
+              해당 검색어에 대한 검색 결과가 없습니다.
+            </p>
+          </div>
+        ))
+      : (content = (
+          <div className={styles.searchList}>
+            <ul>
+              <SearchItem data={filteredData} onClose={props.onClose} />
+            </ul>
+          </div>
+        ));
   }
 
   return (

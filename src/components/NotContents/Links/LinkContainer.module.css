@@ -21,24 +21,45 @@
   padding: 0;
   border: none;
   transition: transform 0.5s;
+
+  text-decoration: none;
+  color: black;
+}
+
+.LinkContainer img {
+  width: 375px;
+  height: 250px;
+  border-radius: 20px;
+  object-fit: cover;
+  opacity: 50%;
 }
 
 .LinkContainer div {
   position: relative;
-  top: 210px;
+  bottom: 50px;
   left: 42.5px;
 
   width: 290px;
-  height: 60px;
+  min-height: 50px;
   background: #e8e8e8;
   border-radius: 20px;
 
   text-align: center;
-  font-size: 50px;
+  justify-content: center;
+  font-size: 30px;
 
   padding: 0;
   border: none;
   transition: transform 0.5s;
+}
+
+.LinkContainer p {
+  margin: 0;
+  padding: 0px 5px 0px 5px;
+}
+
+.LinkContainer p:first-child {
+  padding-top: 7.5px;
 }
 
 .LinkContainer:hover,

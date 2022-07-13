@@ -1,32 +1,52 @@
 import styles from "./SideBar.module.css";
+import useGetItems from "../../../hooks/useGetItems";
+import { Fragment, useEffect } from "react";
+import { useParams } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const SideBar = () => {
-  return (
-    <div className={styles.SideBar}>
-      <div className={styles.Title}>
-        <p>Title</p>
-      </div>
-      <ul className={styles.List}>
-        <li>
-          <p>C++</p>
-        </li>
-        <li>
-          <p>Java</p>
-        </li>
-        <li>
-          <p>1123123123</p>
-        </li>
-        <li>
-          <p>adsfasdasaf</p>
-        </li>
-        <li>
-          <p>qweewqrwreq</p>
-        </li>
-        <li>
-          <p>DigitalForensic with CTF</p>
-        </li>
-      </ul>
-    </div>
-  );
+  const { loading, error, data, fetchData } = useGetItems();
+  const params = useParams();
+
+  let content;
+
+  useEffect(() => {
+    fetchData(
+      `https://codingwith-3cbaf-default-rtdb.firebaseio.com/main/${params.sortId}.json`
+    );
+  }, [params]);
+
+  if (loading) {
+    content = (
+      <p style={{ fontSize: "40px", textAlign: "center" }}>Loading...</p>
+    );
+  }
+  if (error) {
+    content = <p style={{ fontSize: "40px", textAlign: "center" }}>Error</p>;
+  }
+  if (data) {
+    content = (
+      <Fragment>
+        <div className={styles.SideBar}>
+          <ul className={styles.List}>
+            {data.links.map((el, index) => {
+              return (
+                <li key={index}>
+                  <NavLink
+                    to={`/${params.sortId}/${el.url}`}
+                    style={{ textDecoration: "none", color: "black" }}
+                  >
+                    <p>{el.title}</p>
+                  </NavLink>
+                </li>
+              );
+            })}
+          </ul>
+        </div>
+      </Fragment>
+    );
+  }
+
+  return content;
 };
 export default SideBar;

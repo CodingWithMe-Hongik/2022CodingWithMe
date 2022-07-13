@@ -303,41 +303,467 @@
     }
   },
   "detail": {
-    "development": {
-      "game": [
+    "programmingLan": {
+      "c": [
         {
-          "img": "null",
+          "img": "https://cocondeals.com/wp-content/uploads/2021/11/Udemy-Logo.png",
+          "title": "udemy",
+          "url": "https://www.udemy.com/topic/c-programming/"
+        },
+        {
+          "img": "https://blog.kakaocdn.net/dn/PUn3J/btqCvx1gkCr/IiQ89PF6VfFqqDw3wFmpH1/img.png",
+          "title": "inflern",
+          "url": "https://www.inflearn.com/courses?s=c"
+        },
+        {
+          "img": "https://play-lh.googleusercontent.com/angTOgfOI44tirOc61wA8wMakxRWScjjEh_SLBZzo1pyoG0rwjKNPW3tQ6ZrcD7HlfU",
+          "title": "edwith",
+          "url": "https://www.edwith.org/search/show?searchQuery=c&MAX=20"
+        },
+        {
+          "img": "http://tcpschool.com/img/tcpschool_og_logo.png",
+          "title": "TCP SCHOOL",
+          "url": "http://www.tcpschool.com/c/intro"
+        },
+        {
+          "img": "https://images.velog.io/images/kimku1018/post/43d1fa08-3a92-40c7-84cc-ceefbe3be879/스크린샷%202021-09-08%20오후%207.48.45.png",
+          "title": "cplusplus (reference)",
+          "url": "http://www.cplusplus.com/"
+        }
+      ],
+      "cpp": [
+        {
+          "img": "https://cocondeals.com/wp-content/uploads/2021/11/Udemy-Logo.png",
+          "title": "udemy",
+          "url": "https://www.udemy.com/ko/topic/c-plus-plus/"
+        },
+        {
+          "img": "https://blog.kakaocdn.net/dn/PUn3J/btqCvx1gkCr/IiQ89PF6VfFqqDw3wFmpH1/img.png",
+          "title": "inflern",
+          "url": "https://www.inflearn.com/courses?s=c%2B%2B&order=search&page=1"
+        },
+        {
+          "img": "http://tcpschool.com/img/tcpschool_og_logo.png",
+          "title": "TCP SCHOOL",
+          "url": "http://www.tcpschool.com/cpp/intro"
+        },
+        {
+          "img": "https://images.velog.io/images/kimku1018/post/43d1fa08-3a92-40c7-84cc-ceefbe3be879/스크린샷%202021-09-08%20오후%207.48.45.png",
+          "title": "cplusplus (reference)",
+          "url": "http://www.cplusplus.com/"
+        }
+      ],
+      "cs": [
+        {
+          "img": "https://cocondeals.com/wp-content/uploads/2021/11/Udemy-Logo.png",
+          "title": "udemy",
+          "url": "https://www.udemy.com/ko/topic/c-sharp/"
+        },
+        {
+          "img": "https://blog.kakaocdn.net/dn/PUn3J/btqCvx1gkCr/IiQ89PF6VfFqqDw3wFmpH1/img.png",
+          "title": "inflern",
+          "url": "https://www.inflearn.com/courses?s=c%23&order=search&page=1"
+        }
+      ],
+      "python": [
+        {
+          "img": "https://cocondeals.com/wp-content/uploads/2021/11/Udemy-Logo.png",
+          "title": "udemy",
+          "url": "https://www.udemy.com/ko/topic/python/"
+        },
+        {
+          "img": "https://blog.kakaocdn.net/dn/PUn3J/btqCvx1gkCr/IiQ89PF6VfFqqDw3wFmpH1/img.png",
+          "title": "inflern",
+          "url": "https://www.inflearn.com/courses?s=%ED%8C%8C%EC%9D%B4%EC%8D%AC&order=search&page=1"
+        },
+        {
+          "img": "https://play-lh.googleusercontent.com/angTOgfOI44tirOc61wA8wMakxRWScjjEh_SLBZzo1pyoG0rwjKNPW3tQ6ZrcD7HlfU",
+          "title": "edwith",
+          "url": "https://www.edwith.org/search/show?searchQuery=%ED%8C%8C%EC%9D%B4%EC%8D%AC&MAX=20"
+        },
+        {
+          "img": "http://tcpschool.com/img/tcpschool_og_logo.png",
+          "title": "TCP SCHOOL",
+          "url": "http://www.tcpschool.com/python2018/intro"
+        }
+      ],
+      "java": [
+        {
+          "img": "https://cocondeals.com/wp-content/uploads/2021/11/Udemy-Logo.png",
+          "title": "udemy",
+          "url": "https://www.udemy.com/ko/topic/java/"
+        },
+        {
+          "img": "https://blog.kakaocdn.net/dn/PUn3J/btqCvx1gkCr/IiQ89PF6VfFqqDw3wFmpH1/img.png",
+          "title": "inflern",
+          "url": "https://www.inflearn.com/courses?s=%EC%9E%90%EB%B0%94&order=search&page=1"
+        },
+        {
+          "img": "https://play-lh.googleusercontent.com/angTOgfOI44tirOc61wA8wMakxRWScjjEh_SLBZzo1pyoG0rwjKNPW3tQ6ZrcD7HlfU",
+          "title": "edwith",
+          "url": "https://www.edwith.org/search/show?searchQuery=%EC%9E%90%EB%B0%94&MAX=20"
+        },
+        {
+          "img": "http://tcpschool.com/img/tcpschool_og_logo.png",
+          "title": "TCP SCHOOL",
+          "url": "http://www.tcpschool.com/java/intro"
+        },
+        {
+          "img": "https://cocondeals.com/wp-content/uploads/2021/11/Udemy-Logo.png",
+          "title": "udemy (spring)",
+          "url": "https://www.udemy.com/ko/topic/spring-framework/"
+        },
+        {
+          "img": "https://blog.kakaocdn.net/dn/PUn3J/btqCvx1gkCr/IiQ89PF6VfFqqDw3wFmpH1/img.png",
+          "title": "inflern (spring)",
+          "url": "https://www.inflearn.com/courses?s=spring&order=search&page=1"
+        }
+      ],
+      "javascript": [
+        {
+          "img": "https://cocondeals.com/wp-content/uploads/2021/11/Udemy-Logo.png",
+          "title": "udemy",
+          "url": "https://www.udemy.com/ko/topic/javascript/"
+        },
+        {
+          "img": "https://blog.kakaocdn.net/dn/PUn3J/btqCvx1gkCr/IiQ89PF6VfFqqDw3wFmpH1/img.png",
+          "title": "inflern",
+          "url": "https://www.inflearn.com/courses?s=%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8&order=search&page=1"
+        },
+        {
+          "img": "https://play-lh.googleusercontent.com/angTOgfOI44tirOc61wA8wMakxRWScjjEh_SLBZzo1pyoG0rwjKNPW3tQ6ZrcD7HlfU",
+          "title": "edwith",
+          "url": "http://www.tcpschool.com/javascript/intro"
+        },
+        {
+          "img": "https://cocondeals.com/wp-content/uploads/2021/11/Udemy-Logo.png",
+          "title": "udemy (react)",
+          "url": "https://www.udemy.com/ko/topic/react/"
+        },
+        {
+          "img": "https://blog.kakaocdn.net/dn/PUn3J/btqCvx1gkCr/IiQ89PF6VfFqqDw3wFmpH1/img.png",
+          "title": "inflern (react)",
+          "url": "https://www.inflearn.com/courses?s=react&order=search&page=1"
+        }
+      ]
+    },
+    "development": {
+      "web": [
+        {
+          "img": "https://cocondeals.com/wp-content/uploads/2021/11/Udemy-Logo.png",
+          "title": "udemy",
+          "url": "https://www.udemy.com/ko/courses/development/web-development/"
+        },
+        {
+          "img": "https://blog.kakaocdn.net/dn/PUn3J/btqCvx1gkCr/IiQ89PF6VfFqqDw3wFmpH1/img.png",
+          "title": "inflern",
+          "url": "https://www.inflearn.com/roadmaps?terms=5"
+        },
+        {
+          "img": "https://play-lh.googleusercontent.com/angTOgfOI44tirOc61wA8wMakxRWScjjEh_SLBZzo1pyoG0rwjKNPW3tQ6ZrcD7HlfU",
           "title": "edwith",
           "url": "https://www.edwith.org/search/index?categoryId=69"
         },
         {
-          "img": "\"\"",
-          "title": "udemy",
-          "url": "https://www.udemy.com/ko/courses/development/game-development/"
+          "img": "http://tcpschool.com/img/tcpschool_og_logo.png",
+          "title": "TCP SCHOOL",
+          "url": "http://www.tcpschool.com/webbasic/intro"
         }
       ],
       "mobile": [
         {
-          "img": "\"\"",
+          "img": "https://cocondeals.com/wp-content/uploads/2021/11/Udemy-Logo.png",
+          "title": "udemy",
+          "url": "https://www.udemy.com/ko/courses/development/mobile-apps/"
+        },
+        {
+          "img": "https://blog.kakaocdn.net/dn/PUn3J/btqCvx1gkCr/IiQ89PF6VfFqqDw3wFmpH1/img.png",
+          "title": "inflern",
+          "url": "https://www.inflearn.com/roadmaps?terms=5"
+        },
+        {
+          "img": "https://play-lh.googleusercontent.com/angTOgfOI44tirOc61wA8wMakxRWScjjEh_SLBZzo1pyoG0rwjKNPW3tQ6ZrcD7HlfU",
           "title": "edwith",
           "url": "https://www.edwith.org/search/index?categoryId=70"
-        },
-        {
-          "img": "\"\"",
-          "title": "inflearn",
-          "url": "https://www.inflearn.com/roadmaps?terms=5"
         }
       ],
-      "web": [
+      "game": [
         {
-          "img": "\"\"",
-          "title": "edwith",
-          "url": "https://www.edwith.org/search/index?categoryId=69"
+          "img": "https://cocondeals.com/wp-content/uploads/2021/11/Udemy-Logo.png",
+          "title": "udemy",
+          "url": "https://www.udemy.com/ko/courses/development/game-development/"
         },
         {
-          "img": "\"\"",
-          "title": "Udemy",
-          "url": "https://www.udemy.com/ko/courses/development/web-development/"
+          "img": "https://blog.kakaocdn.net/dn/PUn3J/btqCvx1gkCr/IiQ89PF6VfFqqDw3wFmpH1/img.png",
+          "title": "inflern",
+          "url": "https://www.inflearn.com/roadmaps?terms=5"
+        },
+        {
+          "img": "https://play-lh.googleusercontent.com/angTOgfOI44tirOc61wA8wMakxRWScjjEh_SLBZzo1pyoG0rwjKNPW3tQ6ZrcD7HlfU",
+          "title": "edwith",
+          "url": "https://www.edwith.org/search/index?categoryId=69"
+        }
+      ]
+    },
+    "db": {
+      "datastructure": [
+        {
+          "img": "data:image/png;base64,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",
+          "title": "자료구조",
+          "url": "https://visualgo.net/en"
+        },
+        {
+          "img": "https://cdn.pixabay.com/photo/2016/08/27/03/02/youtube-1623577__340.png",
+          "title": "DB",
+          "url": "https://www.youtube.com/user/damazzang/featured"
+        }
+      ],
+      "db": [
+        {
+          "img": "https://cocondeals.com/wp-content/uploads/2021/11/Udemy-Logo.png",
+          "title": "udemy",
+          "url": "https://www.udemy.com/ko/courses/development/data-science/"
+        },
+        {
+          "img": "https://cocondeals.com/wp-content/uploads/2021/11/Udemy-Logo.png",
+          "title": "udemy",
+          "url": "https://www.udemy.com/ko/courses/development/databases/"
+        },
+        {
+          "img": "https://blog.kakaocdn.net/dn/PUn3J/btqCvx1gkCr/IiQ89PF6VfFqqDw3wFmpH1/img.png",
+          "title": "inflern",
+          "url": "https://www.inflearn.com/courses/data-science/data-analysis"
+        },
+        {
+          "img": "https://blog.kakaocdn.net/dn/PUn3J/btqCvx1gkCr/IiQ89PF6VfFqqDw3wFmpH1/img.png",
+          "title": "inflern",
+          "url": "https://www.inflearn.com/courses/data-science/data-database"
+        },
+        {
+          "img": "https://play-lh.googleusercontent.com/angTOgfOI44tirOc61wA8wMakxRWScjjEh_SLBZzo1pyoG0rwjKNPW3tQ6ZrcD7HlfU",
+          "title": "edwith",
+          "url": "https://www.edwith.org/search/index?categoryId=312"
+        }
+      ]
+    },
+    "ai": {
+      "ai": [
+        {
+          "img": "https://blog.kakaocdn.net/dn/PUn3J/btqCvx1gkCr/IiQ89PF6VfFqqDw3wFmpH1/img.png",
+          "title": "inflern",
+          "url": "https://www.inflearn.com/courses/data-science/artificial-intelligence"
+        },
+        {
+          "img": "https://play-lh.googleusercontent.com/angTOgfOI44tirOc61wA8wMakxRWScjjEh_SLBZzo1pyoG0rwjKNPW3tQ6ZrcD7HlfU",
+          "title": "edwith",
+          "url": "https://www.edwith.org/search/index?categoryId=71"
+        }
+      ],
+      "deepLearning": [
+        {
+          "img": "http://tcpschool.com/img/tcpschool_og_logo.png",
+          "title": "TCP SCHOOL",
+          "url": "http://www.tcpschool.com/deep2018/intro"
+        },
+        {
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAWXVt5Ewm8wZUWGn8ratkvYXrqUp1BAoJ_A&usqp=CAU",
+          "title": "모두를 위한\n머신러닝/딥러닝",
+          "url": "https://hunkim.github.io/ml/"
+        },
+        {
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAWXVt5Ewm8wZUWGn8ratkvYXrqUp1BAoJ_A&usqp=CAU",
+          "title": "dive into\ndeep learning",
+          "url": "http://d2l.ai/"
+        },
+        {
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAWXVt5Ewm8wZUWGn8ratkvYXrqUp1BAoJ_A&usqp=CAU",
+          "title": "구글 머신러닝\n단기집중과정",
+          "url": "https://developers.google.com/machine-learning/crash-course/?hl=ko"
+        },
+        {
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAWXVt5Ewm8wZUWGn8ratkvYXrqUp1BAoJ_A&usqp=CAU",
+          "title": "스탠포드 AI",
+          "url": "http://ai.stanford.edu/courses/"
+        },
+        {
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAWXVt5Ewm8wZUWGn8ratkvYXrqUp1BAoJ_A&usqp=CAU",
+          "title": "딥러닝 학습 기술들",
+          "url": "https://ratsgo.github.io/deep%20learning/2017/04/22/NNtricks/"
+        },
+        {
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAWXVt5Ewm8wZUWGn8ratkvYXrqUp1BAoJ_A&usqp=CAU",
+          "title": "머신러닝 책 로드맵",
+          "url": "https://www.mindmeister.com/ko/812276967/_?fullscreen=1"
+        },
+        {
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAWXVt5Ewm8wZUWGn8ratkvYXrqUp1BAoJ_A&usqp=CAU",
+          "title": "CS231n 2016\n(스탠포드 AI)",
+          "url": "http://aikorea.org/cs231n/"
+        },
+        {
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAWXVt5Ewm8wZUWGn8ratkvYXrqUp1BAoJ_A&usqp=CAU",
+          "title": "CS231n 2017\n(스탠포드 AI)",
+          "url": "https://github.com/visionNoob/CS231N_17_KOR_SUB"
+        },
+        {
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAWXVt5Ewm8wZUWGn8ratkvYXrqUp1BAoJ_A&usqp=CAU",
+          "title": "수학을 포기한 직업프로\n그래머가 머신러닝 학습을\n시작하기 위한 학습법",
+          "url": "http://www.moreagile.net/2015/05/how-to-start-machine-learning-study.html"
+        },
+        {
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAWXVt5Ewm8wZUWGn8ratkvYXrqUp1BAoJ_A&usqp=CAU",
+          "title": "coursera",
+          "url": "https://www.coursera.org/learn/machine-learning"
+        },
+        {
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAWXVt5Ewm8wZUWGn8ratkvYXrqUp1BAoJ_A&usqp=CAU",
+          "title": "CMU deep learning",
+          "url": "https://www.youtube.com/channel/UC8hYZGEkI2dDO8scT8C5UQA/videos"
+        },
+        {
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAWXVt5Ewm8wZUWGn8ratkvYXrqUp1BAoJ_A&usqp=CAU",
+          "title": "딥러닝 slide share",
+          "url": "https://www.slideshare.net/yongho/ss-79607172"
+        }
+      ]
+    },
+    "math": {
+      "calculus": [
+        {
+          "img": "https://blog.kakaocdn.net/dn/PUn3J/btqCvx1gkCr/IiQ89PF6VfFqqDw3wFmpH1/img.png",
+          "title": "inflern",
+          "url": "https://www.inflearn.com/roadmaps?terms=493"
+        },
+        {
+          "img": "https://cdn.pixabay.com/photo/2019/02/10/08/49/math-3986758__480.jpg",
+          "title": "미적분학1",
+          "url": "http://www.kmooc.kr/courses/course-v1:SKKUk+SKKU_EXGB506_01K+2020_T1/about"
+        },
+        {
+          "img": "https://cdn.pixabay.com/photo/2019/02/10/08/49/math-3986758__480.jpg",
+          "title": "미적분학2",
+          "url": "http://www.kmooc.kr/courses/course-v1:SKKUk+SKKU_2017_05-01+2019_T1/about"
+        }
+      ],
+      "linearAlgebra": [
+        {
+          "img": "https://play-lh.googleusercontent.com/angTOgfOI44tirOc61wA8wMakxRWScjjEh_SLBZzo1pyoG0rwjKNPW3tQ6ZrcD7HlfU",
+          "title": "선형대수학",
+          "url": "http://www.kmooc.kr/courses/course-v1:SKKUk+SKKU_2019_06+2020_T1/about"
+        }
+      ],
+      "etc": [
+        {
+          "img": "https://play-lh.googleusercontent.com/angTOgfOI44tirOc61wA8wMakxRWScjjEh_SLBZzo1pyoG0rwjKNPW3tQ6ZrcD7HlfU",
+          "title": "edwith",
+          "url": "https://www.edwith.org/search/index?categoryId=248"
+        }
+      ]
+    },
+    "etc": {
+      "solving": [
+        {
+          "img": "https://onlinejudgeimages.s3-ap-northeast-1.amazonaws.com/images/boj-og.png",
+          "title": "백준",
+          "url": "https://www.acmicpc.net/"
+        },
+        {
+          "img": "https://programmers.co.kr/assets/img-meta-programmers-e00862a7c9acd8ef5164f8c85b3ab0127d083ab59b3a98d7219690bd3570bf35.png",
+          "title": "프로그래머스",
+          "url": "https://programmers.co.kr/learn/challenges"
+        },
+        {
+          "img": "https://t1.daumcdn.net/cfile/tistory/99F816455B862A8906",
+          "title": "삼성SW 익스퍼트\n아카데미",
+          "url": "https://swexpertacademy.com/main/main.do"
+        },
+        {
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjLcbXj1vSPV5-u-YK6KDIHtsSPtuneUB8Z5E4w7gCseLMpRwzNBm5ALOHUH8EFhnsVSw&usqp=CAU",
+          "title": "온코더",
+          "url": "https://www.oncoder.com/"
+        },
+        {
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjLcbXj1vSPV5-u-YK6KDIHtsSPtuneUB8Z5E4w7gCseLMpRwzNBm5ALOHUH8EFhnsVSw&usqp=CAU",
+          "title": "정올",
+          "url": "http://www.jungol.co.kr/bbs/board.php?bo_table=pbank"
+        },
+        {
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjLcbXj1vSPV5-u-YK6KDIHtsSPtuneUB8Z5E4w7gCseLMpRwzNBm5ALOHUH8EFhnsVSw&usqp=CAU",
+          "title": "코딩도장",
+          "url": "https://dojang.io/"
+        }
+      ],
+      "certification": [
+        {
+          "img": "https://cdn.pixabay.com/photo/2016/03/26/22/21/books-1281581_1280.jpg",
+          "title": "전자문제집 CBT",
+          "url": "https://www.comcbt.com/"
+        }
+      ],
+      "community": [
+        {
+          "img": "https://okky.kr/assets/images/okky_logo_fb.png",
+          "title": "Okky",
+          "url": "https://okky.kr/"
+        },
+        {
+          "img": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAMAAACahl6sAAAAjVBMVEX////pHS/pIDH2paz97e/uTFr//P3yd4L++PjqKTrqIjT/+/zqJTbrMED+9fb0jpfsOEf96+z3r7bzg4395uj72t3wYW7xbXjsPk371dnuUF7tSFb6zND4t735xsvrLz/2oKj1l6DvWGbyfIbzh5H5vsP3rLLsO0v1mqL6yc32o6rvXmvxbnn83+LwZnL+be/JAAAGo0lEQVR4nO2d6YKiOhCFFRFRBAE3FsXd3tT3f7zbtu24gdRJAjJz6/vdBo+pLZWErtUYhmEYhmEYhmEYhmEYhmEYhmEYhvkbcDxPLwKjZB3GcNv/asZN1USfZslKapY+mR/cTl0x7YVF/Qam7jiWmhk099vWm2ItM5/69OFoeWitenM/GXq69ERa+8bBVqqkOaA+uqcd/17rtu1guVt/boaScpzJOlY4LdqC+uBBdPO5tt0c9/yhTLwwBo1lV5kS8pTUto8P7drRahvq4lp0X5mULtlL9GXqAB172dt4whOjbyNFBtYiBy4/88drN/uJ8Lx4izclQmKP/MTmk2Hay/c9+Se5IzyosK/ZhPzAxdOBtKAfCkpxFgpicYfsJLXQzRnLXe/FlBibQF4JOQDXnEPeWFrccMSkTJ7ZLY0VPeLMtdzRujvBSQljWSFjeoYOKaYcfYgpSfIMN48R3Rj0KH+4ej3YiCmZS8auL7oQY0UaMaAHwmv0kZyQJpDKGvlOciQi1z03TOWmBBGStGlj9oUSCs1yMwFMqzYgOqQtZlx9KSGAs9N/s7WQEKLlZnAAFkhmbkr8BbHXC3JO0gJKcKNFHHQWli8EsoIecdDuVESInGm9FyFEa4gIoY6eClD9fvNJ/M06IkLMsYyQdoI8izr5QqY1kKrlXahapQoBlmsX5HwdC5RUIYFAkWJRQ2I6QBX/zZw4KpKczgzlVolYDqbGFSgUgmOn09kW8TBbIB9KTgjmlcQFSf2Ar9yNtVQ2BNpaR4iRnt6+vPAhudLFfN1Jb5ves8RLRp1ajmZBbwYd8UitDoEJMRaSHeA21igYkjqCyArnF+kWCpi4NpSlrg0VPT/s5Ra5ddRFSPlQW8MLdl2qWvwBS1yk6LuEqxOnLxd563Btl7HXc4MLG5a1kN9ViLA4SfD17hzdvDIaxB7TM/rYM/3cGKmt0IhlbBXsjaDLn3wX+UIdRIkONPjquXsYTbRYVKMD2Aj9IbdhGqA7ClZDiQ60lMir4V10P8FZKPDzOm5ZOenXRhsOzlqNDtSycuoTewsG3kFL0VEB0LJyegOwjuFIOp//EmOWNXxaoLo+psNI5LdxzwDbuUeeuroL+ofZkK3bL4BLkcGzNVUMxitdlZsfAbcwnu2xR2BfMTyoco8jPejZXnbs1UZDaChrKn024Bpwm2+eGSo7LTAd9WYqdYAL62wPafcwEw1Hag+YYh1GY5Fl1O4W6yc1FBwDugFLIpntzAhbD+5bCqPViTWSRKyMhUhnDG2umFN1SfDMDCq4k/Rie4a5x76vfDpAV884cBZPkaKziOlAXT31eGnnAK0GC5kO0NUHabnQXiBm5fhFTEcdzOppoTfaIGYVqg9WJ1zEKlJCb3uFRCt9rjp3/GGHJLHH8j32gc9byZfyey9noHbWw4R0d0iNuO+rvSdyQxPZbrufkGALRG5nq7TQvQdx9bsD8dB0WMlI3f2QFKC949tjFTEyHcMireoItHd8fcxwhgQrr7hY9Qt0AulqG1eLNvRg5UyXhcWqMwGSA7w/l1TcHj1EmB/jgjLgNVB/8Xw+tjuekOt+I1wV7BynrwR1oE5CtMin+9WgV7RznMCWhj9bIm89+me8z1hlq+cJfai/aO3qs1ZI/ojuq7rDlgvYX6z5B3qscqbFJsAbsNNA3wGI7BxmUkao+gPYuaYLnuzU9t1yEDshTZDRKiPiXiFy+jMXKyxbxveSSvT25jMZfXV7HVSETnpXT4bY6c8KyqjXl4L3NtMxJ6vXyBC9MZQlo3wXP6Mw+JrJ62R8V3+C92gfcJJxqenvHoHjn2no09FLZaD7n1ky/GWZNVUaKlxkMI/Kq3CzsLFt5Ees4ULlS1mEAY9i3mNO+m8lrf5yAI813eJsdi+Mt7dgB/pv0P3Rqz38grCvG/v3Cnj4BcGK0Zysg2q4xpkAXK7/oE/HlXGNM3jpa+znL09+KaCrw6NNVSFrPIDV8J6v+OVq6oDuivjNKsWpG6DTDuRXCbwAqFlaZSHQ7R0WUgJQEV9lIS7SLWUhJfDPCIGK3yoL+WeiFvQCFOqrBF4BdoFH7k0SxQIVjdtKFvAnoPuspDcZvgjoeJPz9eqvmw22Zm9U17aw9zY9ucLzcrAGnV/BtsMvyIsMazVT/gUGRQG+GMGTfedKcWBHnGqDcVUdPgA3SPR1VbPJCuzRWUmFmvDXtOGGvLNZxbOuVjXqMf6SO8sLp43K8ZmU/c9TGIZhGIZhGIZhGIZhGIZhGIZhGOZ/yH9/mo0S+5Ca6gAAAABJRU5ErkJggg==",
+          "title": "데브피아",
+          "url": "http://www.devpia.com/"
+        },
+        {
+          "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/KLDP-mascot.svg/1200px-KLDP-mascot.svg.png",
+          "title": "KLDP",
+          "url": "https://kldp.org/"
+        },
+        {
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvpNRB3ZJ74JTQGt2yKj-Ir3f3WZW8QXwCFW0RaaOCR17j5QWaBIauHGQBmuwy_JAHDB4&usqp=CAU",
+          "title": "stackoverflow",
+          "url": "https://stackoverflow.com/"
+        },
+        {
+          "img": "data:image/jpeg;base64,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",
+          "title": "tensorflow KR",
+          "url": "https://www.facebook.com/groups/TensorFlowKR/"
+        }
+      ],
+      "contest": [
+        {
+          "img": "https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2F0xdHf%2FbtqvusfbfuF%2FcDUmpoouLk5LiaivpGcIdK%2Fimg.jpg",
+          "title": "Google Codejam",
+          "url": "https://codingcompetitions.withgoogle.com/codejam"
+        }
+      ],
+      "lecture": [
+        {
+          "img": "https://cocondeals.com/wp-content/uploads/2021/11/Udemy-Logo.png",
+          "title": "udemy",
+          "url": "https://www.udemy.com/"
+        },
+        {
+          "img": "https://blog.kakaocdn.net/dn/PUn3J/btqCvx1gkCr/IiQ89PF6VfFqqDw3wFmpH1/img.png",
+          "title": "inflern",
+          "url": "https://www.inflearn.com/inflearn"
+        },
+        {
+          "img": "https://play-lh.googleusercontent.com/angTOgfOI44tirOc61wA8wMakxRWScjjEh_SLBZzo1pyoG0rwjKNPW3tQ6ZrcD7HlfU",
+          "title": "edwith",
+          "url": "https://www.edwith.org/"
+        },
+        {
+          "img": "http://tcpschool.com/img/tcpschool_og_logo.png",
+          "title": "TCP SCHOOL",
+          "url": "http://tcpschool.com/html/html_text_headings"
+        },
+        {
+          "img": "https://yt3.ggpht.com/ytc/AKedOLQxjW9reD4wtXjJWR1mzH8L37nkc670i8ZHNP8C=s900-c-k-c0x00ffffff-no-rj",
+          "title": "코딩야학",
+          "url": "https://coding.yah.ac/"
+        },
+        {
+          "img": "https://yt3.ggpht.com/ytc/AKedOLTUh5DI9RQkZcNRxzVqXMfyO2jB99F1k49ttgFbrA=s900-c-k-c0x00ffffff-no-rj",
+          "title": "nomadcoders",
+          "url": "https://nomadcoders.co/"
         }
       ]
     }
