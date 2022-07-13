@@ -7,20 +7,15 @@ import { useParams } from "react-router-dom";
 const LinkContainer = () => {
   const params = useParams();
 
-  const { loading, error, data, fetchData } = useGetItems();
+  const { error, data, fetchData } = useGetItems();
 
   useEffect(() => {
     fetchData(
-      `https://codingwith-3cbaf-default-rtdb.firebaseio.com/detail/${params.sortId}/${params.detailId}.json`
+      `https://codingwithme-f5889-default-rtdb.firebaseio.com/detail/${params.sortId}/${params.detailId}.json`
     );
   }, [params]);
 
   let content;
-  if (loading) {
-    content = (
-      <p style={{ fontSize: "40px", textAlign: "center" }}>Loading...</p>
-    );
-  }
   if (error) {
     content = <p style={{ fontSize: "40px", textAlign: "center" }}>Error</p>;
   }

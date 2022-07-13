@@ -6,7 +6,7 @@ const Footer = () => {
       <p>CWM</p>
       <div className={styles.Button}>
         <a
-          href="https://namu.wiki/w/GitHub?from=깃허브"
+          href="https://github.com/CodingWithMe-Hongik/2022CodingWithMe"
           target="_blank"
           rel="noreferrer"
         >

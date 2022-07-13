@@ -18,9 +18,9 @@
           "url": "/db"
         },
         {
-          "img": "https://w.namu.la/s/c9b951140de72f66425f2f5523cd2a4aa0a796a5c67e4c8363782e249d58f9d4fbbd977b1c6fd8d0fcecf5ee70a146619ee15c502a074c547f931384a97d69e5fd93b443273cdbcb802a086458dced86cb9703e93502633e99f477094bc57aa8",
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAWXVt5Ewm8wZUWGn8ratkvYXrqUp1BAoJ_A&usqp=CAU",
           "title": "인공지능/딥러닝",
-          "url": "/AI"
+          "url": "/ai"
         },
         {
           "img": "https://cdn.pixabay.com/photo/2016/06/13/07/59/pi-1453836__480.jpg",
@@ -216,7 +216,7 @@
           "url": "ai"
         },
         {
-          "img": "https://cdn.pixabay.com/photo/2017/03/23/09/34/artificial-intelligence-2167835__340.jpg",
+          "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAWXVt5Ewm8wZUWGn8ratkvYXrqUp1BAoJ_A&usqp=CAU",
           "title": "딥러닝",
           "url": "deepLearning"
         }

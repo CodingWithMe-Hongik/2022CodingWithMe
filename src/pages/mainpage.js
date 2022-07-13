@@ -11,7 +11,7 @@ const MainPage = () => {
 
   useEffect(() => {
     fetchData(
-      "https://codingwith-3cbaf-default-rtdb.firebaseio.com/main/main.json"
+      "https://codingwithme-f5889-default-rtdb.firebaseio.com/main/main.json"
     );
   }, []);
 

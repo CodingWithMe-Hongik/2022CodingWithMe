@@ -13,7 +13,9 @@ const Search = (props) => {
   let content;
 
   useEffect(() => {
-    fetchData("https://codingwith-3cbaf-default-rtdb.firebaseio.com/main.json");
+    fetchData(
+      "https://codingwithme-f5889-default-rtdb.firebaseio.com/main.json"
+    );
   }, []);
 
   if (loading) {

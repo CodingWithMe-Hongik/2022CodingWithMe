@@ -12,7 +12,7 @@ const ContentPage = () => {
 
   useEffect(() => {
     fetchData(
-      `https://codingwith-3cbaf-default-rtdb.firebaseio.com/main/${params.sortId}.json`
+      `https://codingwithme-f5889-default-rtdb.firebaseio.com/main/${params.sortId}.json`
     );
   }, [params]);
 
